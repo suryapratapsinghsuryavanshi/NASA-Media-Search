@@ -1,0 +1,32 @@
+.pages {
+    margin: 1rem 2rem;
+}
+
+.next ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.next ul a {
+    color: #3366c3;
+    margin-right: 1rem;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.keywords {
+    margin-top: 1rem;
+}
+
+.keys {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: fit-content;
+    margin-top: 5px;
+}
+
+.keys p {
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
