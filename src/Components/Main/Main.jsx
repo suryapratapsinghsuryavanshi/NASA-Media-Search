@@ -8,7 +8,7 @@ export default class Main extends React.Component {
         super(props);
         this.state = {
             USER: "suryprtaps@gmail.com",
-            API_KEY: "YOUR_API_KEY",
+            API_KEY: process.env.NASA_API_KEY,
             query: '',
             search_result: '',
             request_data: this.props.test_data !== undefined ? this.props.test_data : '',
