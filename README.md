@@ -1,5 +1,7 @@
 # NASA-Media-Search
-ReactJs | Jest | React-Testing-Library
+> ReactJs | Jest | React-Testing-Library
+
+NASA Media Search is a beginner-friendly project in ReactJs, Jest, and react-testing-library, this project teaches you how to build a practical frontend with the help of beautiful APIs you already have.
 
 ## How to contribute to this project | Getting started
 * Fork this repository (Click the Fork button in the top right of this page, click your Profile Image)
