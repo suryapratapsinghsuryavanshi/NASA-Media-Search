@@ -73,7 +73,6 @@ export default class Main extends React.Component {
   };
 
   render() {
-    console.log("isLoading", this.state.isLoading);
     if (this.state.error === null) {
       return (
         <React.Fragment>
