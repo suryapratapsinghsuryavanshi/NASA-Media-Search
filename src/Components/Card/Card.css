@@ -1,25 +1,32 @@
 .card {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-    margin: 1rem 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 1rem 0;
 }
 
 .card_image {
-    border: 1px solid gray;
-    height: 70px;
-    width: 70px;
-    overflow: hidden;
-    margin: 5px 0px;
-    margin-right: 15px;
+  border: 1px solid gray;
+  height: 70px;
+  width: 70px;
+  overflow: hidden;
+  margin: 5px 0px;
+  margin-right: 15px;
 }
 
 .card_about h4 {
-    margin-bottom: 5px;
+  margin-bottom: 5px;
 }
 
 .card_image img {
-    width: -webkit-fill-available;
-    height: -webkit-fill-available;
+  width: -webkit-fill-available;
+  height: -webkit-fill-available;
+}
+
+.modal-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }

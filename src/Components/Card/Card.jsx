@@ -2,16 +2,6 @@ import React from "react";
 import CustomModal from "../Modal/Modal";
 import "./Card.css";
 
-const customStyles = {
-  content: {
-    top: "50%",
-    left: "50%",
-    right: "auto",
-    bottom: "auto",
-    marginRight: "-50%",
-    transform: "translate(-50%, -50%)",
-  },
-};
 export default class Card extends React.Component {
   state = {
     isModalOpen: false,
@@ -31,7 +21,27 @@ export default class Card extends React.Component {
           }
           contentLabel="Example Modal"
         >
-          <div>I am a modal</div>
+          <div className="modal-container">
+            {this.props.card_data.links !== undefined ? (
+              <img
+                src={this.props.card_data.links[0].href}
+                alt="card_image"
+                data-testid="image-src"
+                width={300}
+                height={200}
+              />
+            ) : (
+              <img src="" alt="card_image" />
+            )}
+            <h4 data-testid="title-text" style={{ paddingTop: "10px" }}>
+              {this.props?.card_data?.data[0]?.title}
+            </h4>
+            <p data-testid="card-date" style={{ paddingTop: "10px" }}>
+              {new Date(
+                this.props?.card_data?.data[0]?.date_created
+              )?.toLocaleDateString()}
+            </p>
+          </div>
         </CustomModal>
         <div
           className="card"
