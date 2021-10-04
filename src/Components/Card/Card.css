@@ -6,6 +6,11 @@
   margin: 1rem 0;
 }
 
+.card:hover{
+  cursor: pointer;
+  background-color:rgba(173, 187, 186, 0.452)
+}
+
 .card_image {
   border: 1px solid gray;
   height: 70px;
