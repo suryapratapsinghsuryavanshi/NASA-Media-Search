@@ -4,29 +4,40 @@
   justify-content: flex-start;
   align-items: center;
   margin: 1rem 0;
+  gap: 50px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 10px #00000091;
 }
 
 .card:hover{
   cursor: pointer;
-  background-color:rgba(173, 187, 186, 0.452)
+  background-color:rgba(235, 232, 232, 0.452);
 }
 
 .card_image {
-  border: 1px solid gray;
-  height: 70px;
-  width: 70px;
-  overflow: hidden;
-  margin: 5px 0px;
-  margin-right: 15px;
+  height: 150px;
+  width: 150px;
+  padding: 20px;
+}
+
+.card_about{
+  display: flex;
+  justify-content: center;
+  flex: 1;
+  gap: 20px;
+  flex-direction: column;
+  margin: 20px;
 }
 
 .card_about h4 {
+  font-size: 24px;
   margin-bottom: 5px;
 }
 
 .card_image img {
-  width: -webkit-fill-available;
-  height: -webkit-fill-available;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
 }
 
 .modal-container {
@@ -34,4 +45,11 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+@media screen and (max-width: 600px) {
+  .card{
+    flex-direction: column;
+    gap: 0;
+  }
 }
