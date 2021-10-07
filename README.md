@@ -95,6 +95,7 @@ The full documentation for this API can be found in the [APOD API Github reposit
 
 ```http
 HTTP Request
+
 GET https://api.nasa.gov/planetary/apod
 ```
 #### Parameters
