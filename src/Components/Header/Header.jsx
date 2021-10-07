@@ -7,7 +7,8 @@ export default class Header extends React.Component {
             <React.Fragment>
                 <h1 className="logo">
                     <a href="/" data-testid="header-text">
-                        NASA Media Search
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/e/e5/NASA_logo.svg"/>
+                         Media Search
                     </a>
                 </h1>
             </React.Fragment>

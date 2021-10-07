@@ -31,6 +31,7 @@ export default class Pages extends React.Component {
         return(
             <React.Fragment>
                 <div className="pages">
+                <a href='/'>Go back</a>
                     <h3 data-testid="search-query">Search Result for {this.props.search_query}</h3>
                     <div className="cards">
                         {
