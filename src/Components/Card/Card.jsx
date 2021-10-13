@@ -64,7 +64,7 @@ export default class Card extends React.Component {
             <h4 data-testid="title-text">
               {this.props.card_data.data[0].title}
             </h4>
-            <p data-testid="card-date">
+            <p className="card_date" data-testid="card-date">
               {new Date(
                 this.props.card_data.data[0].date_created
               ).toLocaleDateString()}
