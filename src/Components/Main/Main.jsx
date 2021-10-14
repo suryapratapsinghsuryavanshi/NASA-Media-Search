@@ -98,12 +98,12 @@ export default class Main extends React.Component {
         return (
           <React.Fragment>
             <main>
-            <h3 style={{textAlign:"center"}}>Topic of the Day</h3>
+            <h3 style={{textAlign:"center"}}><span className='sub_title'>Topic of the Day</span></h3>
               <div className="top_container">
                 <h3 className="image_title" data-testid="image-title">
-                  {this.state.request_data.title}
+                  <span className="img_title">{this.state.request_data.title}</span>
                 </h3>
-                <div className="search_bar">
+                <div className="search_container">
                   <input
                     type="search"
                     name="search"
