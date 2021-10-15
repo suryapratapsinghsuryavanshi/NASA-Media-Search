@@ -8,9 +8,8 @@ export default class Footer extends React.Component {
             <React.Fragment>
                 <div className='footer_container'>
                     <div className="inner_container">
-                        <p className="footer_text"> code by <span style={{color:"#4299E1"}}>@suryapratapsinghsuryavanshi</span></p>
+                        <p className="footer_text"> Made With ❤️ as <span style={{color:"#4299E1"}}>Open Source</span></p>
                     </div>
-
                     <a href="https://github.com/suryapratapsinghsuryavanshi/NASA-Media-Search" className="btn-github">
                         <img src={git} alt="" />GitHub
                       <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" width="24px" height="24px" viewBox="0 0 24 24">
