@@ -1,6 +1,8 @@
 import React from 'react';
 import './Pages.css';
 import Card from './../Card/Card';
+import right from "../../assert/images/arrow-right.svg";
+import left from "../../assert/images/arrow-left.svg";
 
 export default class Pages extends React.Component {
     constructor(props){
@@ -31,8 +33,8 @@ export default class Pages extends React.Component {
         return(
             <React.Fragment>
                 <div className="pages">
-                <a href='/'>Go back</a>
-                    <h3 data-testid="search-query">Search Result for {this.props.search_query}</h3>
+                <a className="home_button" href='/'>Go back</a>
+                     <center><h3 data-testid="search-query"><span className="search_title">Search Result for <span style={{color:"#ff3333"}}>{this.props.search_query}</span></span></h3></center>
                     <div className="cards">
                         {
                             this.state.currentPage ? 
@@ -54,7 +56,7 @@ export default class Pages extends React.Component {
                                     this.managePages();
                                 }
                             }}>
-                                <li> &lt; Previous</li>
+                                <li> <img src={left} alt="left"/> Previous</li>
                             </a>
                             <a onClick={(e) => {
                                 e.preventDefault();
@@ -65,7 +67,7 @@ export default class Pages extends React.Component {
                                     this.managePages();
                                 }
                             }}>
-                                <li>Next &gt;</li>
+                                <li>Next <img src={right} alt="right"/></li>
                             </a>
                         </ul>
                     </div>
