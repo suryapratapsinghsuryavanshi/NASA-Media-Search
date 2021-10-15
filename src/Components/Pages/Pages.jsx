@@ -72,11 +72,11 @@ export default class Pages extends React.Component {
                         </ul>
                     </div>
                     <div className="keywords">
-                        <h3>Related Searches</h3>
+                        <center><h3> <span className="search_title"> Related Searches </span></h3></center>
                         <div className="keys">
                             {
                                 this.props.keywords.map((ele, index) => {
-                                    return <p key={index}>{ele}</p>
+                                    return <p key={index} className="card_box"> {ele}</p>
                                 })       
                             }
                         </div>

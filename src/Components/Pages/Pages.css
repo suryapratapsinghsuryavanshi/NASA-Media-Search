@@ -1,7 +1,6 @@
 .pages {
     display: block;
     margin: 1rem 2rem;
-    width: 100%;
 }
 
 .next ul {
@@ -29,17 +28,25 @@
 }
 
 .keywords {
+    padding: 2rem;
     margin-top: 1rem;
+    border-radius: 11px;
+    background: #2e2e2e;
+    box-shadow: inset 20px 20px 60px #272727,
+                inset -20px -20px 60px #353535;
 }
 
 .keys {
+    background-color: transparent;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    width: fit-content;
-    margin-top: 5px;
+    width:100%;
+    margin: 10px auto;
 }
 
 .keys p {
+    background-color: transparent;
+    display: flex;
     margin-right: 10px;
     margin-bottom: 10px;
 }
