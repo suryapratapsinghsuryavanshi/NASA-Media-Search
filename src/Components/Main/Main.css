@@ -3,6 +3,8 @@ main {
   font-family: 'Sanchez', serif;
   font-weight: 300;
   color: #6b6b6b;
+  height: 100vh;
+  margin-bottom: 10%;
 }
 
 .sub_title{
