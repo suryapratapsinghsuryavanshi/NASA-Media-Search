@@ -25,33 +25,32 @@ NASA Media Search is a beginner-friendly project in ReactJs, Jest, and react-tes
 
 
 
-![Home Page](https://github.com/creater-shikha/NASA-Media-Search/blob/main/images/home.png)
+![Home Page](images/Nasa-Search.png)
 
 - ## **Serching**
 
 
 
--  ![Serching](https://github.com/creater-shikha/NASA-Media-Search/blob/main/images/serchbox.png)
+-  ![Serching](images/Nasa-Search-1.jpg)
  
 - ## **Search page be like**
 
 
 
-- ![Search page be like](https://github.com/creater-shikha/NASA-Media-Search/blob/main/images/serch%2Crelated%20images.png)
+- ![Search page be like](images/Nasa-Search-2.jpg)
 
 - ## **Open image**
 
 
 
-- ![Open image](https://github.com/creater-shikha/NASA-Media-Search/blob/main/images/how%20images%20look.png)
+- ![Open image](images/Nasa-search-3.jpg)
+
 
 - ## **More serch and back to home page**
 
 
 
-- ![More serch and back to home page](https://github.com/creater-shikha/NASA-Media-Search/blob/main/images/back.png) 
-
-
+- ![More serch and back to home page](images/Nasa-Search-4.jpg)
 
 ## How to contribute to this project | Getting started
 * Fork this repository (Click the Fork button in the top right of this page, click your Profile Image)
