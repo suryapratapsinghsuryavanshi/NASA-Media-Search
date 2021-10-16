@@ -22,6 +22,12 @@ export default class Card extends React.Component {
           contentLabel="Example Modal"
         >
           <div className="modal-container">
+          <div class="close-container" onClick={() => this.setState({
+              isModalOpen: false,
+            })}>
+              <div class="leftright"></div>
+              <div class="rightleft"></div>
+          </div>
             {this.props.card_data.links !== undefined ? (
               <img
                 src={this.props.card_data.links[0].href}
