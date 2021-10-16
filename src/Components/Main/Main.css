@@ -3,8 +3,6 @@ main {
   font-family: 'Sanchez', serif;
   font-weight: 300;
   color: #6b6b6b;
-  height: 100vh;
-  margin-bottom: 10%;
 }
 
 .sub_title{
@@ -37,7 +35,7 @@ main {
   background: #2d2d2d;
   box-shadow: inset 20px 20px 60px #262626,
               inset -20px -20px 60px #343434;
-  
+
 }
 
 .image_container {
@@ -48,7 +46,7 @@ main {
   border: none;
   margin: 1rem 1rem;
   overflow: hidden;
-  
+
 }
 
 .image_container img {

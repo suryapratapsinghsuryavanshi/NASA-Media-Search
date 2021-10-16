@@ -16,8 +16,9 @@
 }
 
 .card_image {
-  height: 150px;
-  width: 150px;
+  height: auto;
+  width: auto;
+  max-width: 250px;
   padding: 20px;
 }
 
@@ -96,7 +97,7 @@
 
 label{
   color: white;
-  font-family: Helvetica, Arial, sans-serif; 
+  font-family: Helvetica, Arial, sans-serif;
   font-size: .6em;
   text-transform: uppercase;
   letter-spacing: 2px;
