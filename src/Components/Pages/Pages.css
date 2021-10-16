@@ -24,7 +24,17 @@
 }
 
 .next ul li{
+    background-color: transparent;
     display: flex;
+}
+img{
+    background-color: transparent;
+}
+.next ul a:hover{
+    background-color: #4299E1;
+    color: black;
+    font-size: large;
+    font-weight: 400;
 }
 
 .keywords {
