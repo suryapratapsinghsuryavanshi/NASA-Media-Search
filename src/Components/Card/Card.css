@@ -18,6 +18,7 @@
 .card_image {
   height: auto;
   width: auto;
+  max-width: 250px;
   padding: 20px;
 }
 
