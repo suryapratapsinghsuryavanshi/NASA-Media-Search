@@ -1,4 +1,4 @@
-.footer_container{
+.footer_container {
     display: flex;
     flex-direction: row;
     margin: 0 1rem;
@@ -9,14 +9,25 @@
                 inset -20px -20px 60px #353535; */
 }
 
-.inner_container{
+.inner_container {
     margin: 0 auto;
 }
 
-.footer_text{
+.inner_link {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    margin: auto 0;
+    padding: 1rem;
+    background-color: transparent;
+}
+
+.footer_text {
     background-color: transparent;
     font-size: 20px;
-    margin-left: 2rem;
+    padding: 1rem;
+    margin: auto 0;
+    text-align: center;
 }
 
 .btn-github img{

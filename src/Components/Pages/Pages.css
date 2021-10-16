@@ -1,6 +1,10 @@
 .pages {
     display: block;
-    margin: 1rem 2rem;
+    margin: 2rem;
+}
+
+.next {
+    padding: 2rem;
 }
 
 .next ul {
