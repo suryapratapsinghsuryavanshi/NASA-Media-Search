@@ -39,7 +39,18 @@ NASA Media Search is a beginner-friendly project in ReactJs, Jest, and react-tes
 
 - ![Search page be like](images/Nasa-Search-2.jpg)
 
+- ## **Open image**
 
+
+
+- ![Open image](images/Nasa-search-3.jpg)
+
+
+- ## **More serch and back to home page**
+
+
+
+- ![More serch and back to home page](images/Nasa-Search-4.jpg)
 
 ## How to contribute to this project | Getting started
 * Fork this repository (Click the Fork button in the top right of this page, click your Profile Image)
