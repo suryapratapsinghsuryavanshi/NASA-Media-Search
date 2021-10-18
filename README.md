@@ -2,62 +2,50 @@
 > ReactJs | Jest | React-Testing-Library <br/>
 [NASA-Media-Search](https://nasa-media-searchs.netlify.app/)
 
-NASA Media Search is a beginner-friendly project in ReactJs, Jest, and react-testing-library, this project teaches you how to build a practical frontend with the help of beautiful APIs you already have.
+NASA Media Search is a beginner-friendly project in ReactJs, Jest, and react-testing-library. This project teaches you how to build a practical frontend with the help of beautiful APIs you already have.
 
-# About
+## About
 
  A website provides a satellite's perspective of the planet as it looks today and as it has in the past through daily satellite images
  you just go and search of the image you want to see when it was clicked by NASA and how it looks, The image with it's detail shown there 
 
- Each day a different image or photograph of our fascinating universe is featured
- along with a brief explanation written by a professional astronomer data available on [NASA Picture of the Day](https://nasapicture.com/)
+ Each day a different image or photograph of our fascinating universe is featured along with a brief explanation written by a professional astronomer data available on [NASA Picture of the Day](https://nasapicture.com/)
 (current date through June 16, 1995).
 
 
-```Enjoy searching and grap imformation hope you all Love it.```
+```Enjoy searching and grap imformation hope you all love it.```
 
 
 
-## Website look like
+## Screenshots
 
 
-- ## **Home Page**
-
-
+### **Home Page**
 
 ![Home Page](images/Nasa-Search.png)
 
-- ## **Serching**
+### **Searching**
 
-
-
--  ![Serching](images/Nasa-Search-1.jpg)
+![Searching](images/Nasa-Search-1.jpg)
  
-- ## **Search page be like**
+### **Search page**
 
+![Search page be like](images/Nasa-Search-2.jpg)
 
+### **Open image**
 
-- ![Search page be like](images/Nasa-Search-2.jpg)
+![Open image](images/Nasa-search-3.jpg)
 
-- ## **Open image**
+### **More search and back to home page**
 
-
-
-- ![Open image](images/Nasa-search-3.jpg)
-
-
-- ## **More serch and back to home page**
-
-
-
-- ![More serch and back to home page](images/Nasa-Search-4.jpg)
+![More search and back to home page](images/Nasa-Search-4.jpg)
 
 ## How to contribute to this project | Getting started
 * Fork this repository (Click the Fork button in the top right of this page, click your Profile Image)
 * Clone your fork down to your local machine
 
 ```markdown
-git clone https://github.com/suryapratapsinghsuryavanshi/NASA-Media-Search
+git clone https://github.com/<YOUR-GITHUB-USERNAME>/NASA-Media-Search
 ```
 
 * Create a branch
@@ -66,7 +54,8 @@ git clone https://github.com/suryapratapsinghsuryavanshi/NASA-Media-Search
 git checkout -b branch-name
 ```
 
-* Make your changes (choose from any task below)
+* Make your changes
+
 * Commit and push
 
 ```markdown
@@ -82,7 +71,7 @@ git push origin branch-name
   
 ## API Reference
 
-# APOD
+### APOD
 One of the most popular websites at NASA is the [Astronomy Picture of the Day](https://apod.nasa.gov/apod/astropix.html).
 In fact, this website is one of the most popular websites across all federal agencies. It has the popular appeal of a Justin Bieber video. 
 This endpoint structures the APOD imagery and associated metadata so that it can be repurposed for other applications. In addition, if the concept_tags parameter is set to True, then keywords derived from the image explanation are returned. 
@@ -91,24 +80,18 @@ These keywords could be used as auto-generated hashtags for twitter or instagram
 
 The full documentation for this API can be found in the [APOD API Github repository](https://github.com/nasa/apod-api).
 
-
 ```http
 HTTP Request
 
 GET https://api.nasa.gov/planetary/apod
 ```
-#### Parameters
+### Parameters
 
 
 | Parameter | Type     | Type   | Description                |
 | :-------- | :------- | :----- | :------------------------- |
 | `date` | `YYYY-MM-DD` | `today` |`The date of the APOD image to retrieve` |
 
-#### Example query
+### Example query
 
 https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY
-
-
-
-
-  
