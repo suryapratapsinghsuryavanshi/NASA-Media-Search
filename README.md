@@ -22,7 +22,7 @@ NASA Media Search is a beginner-friendly project in ReactJs, Jest, and react-tes
 
 ### **Home Page**
 
-![Home Page](images/Nasa-Search.png)
+![Home Page](images/Nasa-Search-1.jpeg)
 
 ### **Searching**
 
