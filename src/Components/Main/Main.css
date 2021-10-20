@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&family=Patrick+Hand&family=Sanchez&display=swap');
 main {
-  font-family: 'Sanchez', serif;
+  font-family: 'Heebo', serif;
   font-weight: 300;
   color: #6b6b6b;
 }
@@ -58,7 +58,7 @@ main {
   background-color: transparent;
   text-align: justify;
   width: 50%;
-  font-size: 22px;
+  font-size: 20px;
 }
 
 .dec_container p {
