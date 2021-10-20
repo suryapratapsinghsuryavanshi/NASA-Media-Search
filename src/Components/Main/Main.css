@@ -54,6 +54,15 @@ main {
   height: 50vh;
 }
 
+.image_date{
+  color: #999f9b;
+
+}
+
+hr{
+  color: whitesmoke;
+}
+
 .dec_container {
   background-color: transparent;
   text-align: justify;
