@@ -149,6 +149,7 @@ export default class Main extends React.Component {
                   <p className="image_date" data-testid="image-date">
                     {this.state.request_data.date}
                   </p>
+                 <hr />
                   <p className="image_copyright" data-testid="copyright-text">
                     &copy; {this.state.request_data.copyright}
                   </p>
