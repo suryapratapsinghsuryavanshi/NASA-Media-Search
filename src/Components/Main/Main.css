@@ -38,6 +38,7 @@ main {
 
 }
 
+
 .image_container {
   background-color: transparent;
   display: flex;
@@ -46,7 +47,6 @@ main {
   border: none;
   margin: 1rem 1rem;
   overflow: hidden;
-
 }
 
 .image_container img {
@@ -64,6 +64,7 @@ hr{
 }
 
 .dec_container {
+  
   background-color: transparent;
   text-align: justify;
   width: 50%;
@@ -118,4 +119,22 @@ hr{
 }
 .image_copyright{
   color: #4299E1;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .down_container {
+    flex-direction: column;
+  }
+  .image_container {
+    flex-direction: row;
+    width: 100%;
+  }
+  .image_container img {
+    width: 100%;
+  height: auto;
+  }
+  .dec_container {
+    width: 100%;
+  }
 }
