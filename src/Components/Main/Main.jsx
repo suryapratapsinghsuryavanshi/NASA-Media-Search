@@ -108,7 +108,7 @@ export default class Main extends React.Component {
                     type="search"
                     name="search"
                     id="search"
-                    vlaue={this.state.query}
+                    value={this.state.query}
                     onChange={(e) => {
                       e.preventDefault();
                       this.setState({
