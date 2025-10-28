@@ -1,17 +1,25 @@
-.headerContainer{
-    display: block;
-    text-align: center;
-    font-family: system-ui;
-    font-weight: 400;
-    margin-bottom: 0.8rem;
+.headerContainer {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: var(--header-background);
+    backdrop-filter: blur(10px);
+    padding: 1rem 0;
+    margin-bottom: 1rem;
+    box-shadow: 0 2px 8px var(--shadow-color);
 }
-.logo{
-    margin: 0 6rem;
-    padding: 0.5rem 0;
-    border-radius: 5px;
-    background: #2d2d2d;
-    box-shadow: inset 20px 20px 60px #262626,
-                inset -20px -20px 60px #343434;
+
+.logo {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0.5rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    background: var(--background-secondary);
+    border-radius: 12px;
+    transition: all 0.3s ease;
 }
 .logo a {
     background-color: transparent;
